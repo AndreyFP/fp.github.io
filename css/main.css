@@ -1,0 +1,93 @@
+/* START */
+*{
+	/*Delete brouser side space*/
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	 /*site white background and reserve color*/
+	background: url("../images/bg.jpg")#e6e6e6;
+	font: 12px Arial, Tahoma, sans-serif;
+}
+
+a {
+	/*disable link uder line*/
+	text-decoration: none; 
+}
+/* ////////////////////////// ../images/header_img.png*/
+
+
+
+
+
+/* HEADER */
+#header_cont {
+	width: auto; /*?*/
+	background: url("../images/header_img.png");
+	height: 70px;
+	background-size: cover;
+}
+
+#site_name {
+	width: auto; /*?*/
+	background: url("../images/site_name.png");
+	height: 70px;
+	background-size: cover;;
+}
+/* /////////////////////////// */
+
+
+
+
+
+/*CONTENT SPACE UNDER HEADER */
+
+#content { /*размер нижней части (под сайтбаром)*/
+	width: 1000px;
+	margin: 15px auto;
+	overflow: hidden;
+}
+
+#c_left {
+	float: left;
+	width: 430px;
+	color: #B9BDC2;
+}
+
+#c_right {
+	float: right;
+	width: 430px;
+	color: #B9BDC2;
+}
+
+#post {
+	font-size: 13px;
+}
+/* /////////////////////////// */
+
+
+
+
+
+/*UNDER CONTENT SPACE*/
+
+.copyrights {
+	position: relative;
+	bottom: 0px;
+	margin-top: 80px;
+	font-size: 10px;
+	color: #868686;
+	text-align: center;
+	margin-bottom: 10px; /*?*/
+}
+
+.clr {
+	clear: both;
+}
+/* /////////////////////////// */
+
+
+	
+	
